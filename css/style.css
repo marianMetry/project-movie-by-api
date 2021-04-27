@@ -1,0 +1,115 @@
+.posts
+{
+    background-color: black; 
+
+}
+.view
+{
+    position: relative;
+    overflow: hidden;
+
+}
+.layer
+{
+
+    background-color: rgba(255,255,255,.7);
+    position: absolute;
+    top: 550px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    text-align: center;
+    transition: all 2s;
+
+}
+
+
+.view:hover .layer
+{
+    top: 0px;
+}
+.nav-logo
+{
+    color: black;
+    background-color:#f8f6f6;
+    width: 60px;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+}
+.content
+{
+    color: #fff;
+    background-color:black;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: -250px;
+    z-index: 10;
+}
+.content a
+{
+    opacity: 0;
+    height: -20px;
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    font-size: 15px;
+    padding: 20px 20px;
+    transition: all .5s;
+}
+.content a:hover
+{
+    color: rgb(141, 33, 33);
+}
+.logo
+{
+    position: absolute;
+    top: 20px;
+    left: 15px;
+
+}
+#openClose
+{
+    position: fixed;
+}
+.icon
+{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+
+}
+.social-icon
+{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+.social-icon i:hover
+{
+    color: rgb(245, 8, 8);
+}
+#openClose
+{
+    font-size: 38px;
+    cursor: pointer;
+    position: absolute;
+    left: 12px;
+    top: 270px;
+    z-index: 12;
+}
+.search input
+{
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid rgba(255,255,255,.7);
+}
+
+.alert-name ,.alert-mail ,.alert-phone ,.alert-age ,.alert-pw ,.alert-re-pw
+{
+    display: none;
+}
